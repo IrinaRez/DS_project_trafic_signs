@@ -72,6 +72,8 @@ After my tries to train YOLOv7 model my best mAP on vatidation set was around 0.
 
 <img width="914" alt="Снимок экрана 2022-12-04 в 14 09 59" src="https://user-images.githubusercontent.com/111921768/205492440-b05a47dd-f630-4031-b14f-85d31739adca.png">
 
+Also I think that model can be trained better, but for this more capabilities are needed, as I faced a lot of troubles with training this model. It took a lot of time and RAM. Every epoch takes aroun 17 minutes and to train model till mAP equal 0.8 around 30 epochs are needed. It is around 8.5 hours in total. 
+
 ## 8. Sources
 
 1. [YOLOv7 GitHub](https://github.com/WongKinYiu/yolov7.git)
