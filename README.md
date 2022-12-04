@@ -46,23 +46,36 @@ mAP formula is based on the following sub metrics:
 - Recall, 
 - Precision
 
-To create a confusion matrix, we need four attributes: True Positives (TP) , True Negatives (TN), False Positives (FP), False Negatives (FN).
+To create a **confusion matrix**, we need four attributes: True Positives (TP) , True Negatives (TN), False Positives (FP), False Negatives (FN).
 
-Intersection over Union indicates the overlap of the predicted bounding box coordinates to the ground truth box. Higher IoU indicates the predicted bounding box coordinates closely resembles the ground truth box coordinates.
+**Intersection over Union** indicates the overlap of the predicted bounding box coordinates to the ground truth box. Higher IoU indicates the predicted bounding box coordinates closely resembles the ground truth box coordinates.
 
-Precision measures the proportion of predicted positives that are actually correct. If you are wondering how to calculate precision, it is simply the True Positives out of total detections. Mathematically, it’s defined as follows. P  =  TP/(TP + FP) 
+**Precision** measures the proportion of predicted positives that are actually correct. If you are wondering how to calculate precision, it is simply the True Positives out of total detections. Mathematically, it’s defined as follows. P  =  TP/(TP + FP) 
 
-Recall measures the proportion of actual positives that were predicted correctly. It is the True Positives out of all Ground Truths. Mathematically, it is defined as follows. R = TP / (TP + FN) 
+**Recall** measures the proportion of actual positives that were predicted correctly. It is the True Positives out of all Ground Truths. Mathematically, it is defined as follows. R = TP / (TP + FN) 
 
 ## 6. Evaluating models 
 
-mAP on validation set after training YOLAv5 model was 0.759 (mAP50-95 -- average precision for IoU from 0.5 to 0.95).
+mAP on validation set after training YOLAv5 model was **0.759** (mAP50-95 -- average precision for IoU from 0.5 to 0.95).
 
 <img width="959" alt="Снимок экрана 2022-12-03 в 19 42 18" src="https://user-images.githubusercontent.com/111921768/205457897-b6a8e1ae-104c-468f-b8be-4236aa95ec52.png">
 
-mAP on validation set after training YOLAv5 model was 0.802 (mAP50-95 -- average precision for IoU from 0.5 to 0.95).
+mAP on validation set after training YOLAv5 model was **0.802** (mAP50-95 -- average precision for IoU from 0.5 to 0.95).
 
 <img width="961" alt="Снимок экрана 2022-12-04 в 10 37 18" src="https://user-images.githubusercontent.com/111921768/205483889-5ebb4607-8df3-40cb-abd6-442ddb921c8e.png">
 
+## 7. Conclusion
+
+After my tries to train YOLOv7 model my best mAP on vatidation set was around 0.81. I think can be better and first of all I would work with dataset as  some instanses are over represented and others are under represented, it is worth to make the dataset more representative. 
+
+<img width="929" alt="Снимок экрана 2022-12-04 в 14 15 13" src="https://user-images.githubusercontent.com/111921768/205492632-89bdf4d0-566f-429b-a7fc-17f4f85c4c83.png">
+
+<img width="914" alt="Снимок экрана 2022-12-04 в 14 09 59" src="https://user-images.githubusercontent.com/111921768/205492440-b05a47dd-f630-4031-b14f-85d31739adca.png">
+
+## 8. Sources
+
+1. [YOLOv7 GitHub](https://github.com/WongKinYiu/yolov7.git)
+2. [Dataset](https://www.vicos.si/resources/dfg/)
+3. [Robofrlow for annotation](https://roboflow.com/formats)
 
 
