@@ -60,9 +60,9 @@ mAP on validation set after training YOLAv5 model was **0.759** (mAP50-95 -- ave
 
 <img width="959" alt="Снимок экрана 2022-12-03 в 19 42 18" src="https://user-images.githubusercontent.com/111921768/205457897-b6a8e1ae-104c-468f-b8be-4236aa95ec52.png">
 
-mAP on validation set after training YOLAv5 model was **0.802** (mAP50-95 -- average precision for IoU from 0.5 to 0.95).
+mAP on validation set after training YOLAv5 model was **0.822** (mAP50-95 -- average precision for IoU from 0.5 to 0.95).
 
-<img width="961" alt="Снимок экрана 2022-12-04 в 10 37 18" src="https://user-images.githubusercontent.com/111921768/205483889-5ebb4607-8df3-40cb-abd6-442ddb921c8e.png">
+<img width="956" alt="Снимок экрана 2022-12-05 в 23 02 00" src="https://user-images.githubusercontent.com/111921768/205760821-c3725912-f5fb-49d7-94d0-4af94e96a25c.png">
 
 ## 7. Conclusion
 
