@@ -64,6 +64,10 @@ mAP on validation set after training YOLAv5 model was **0.802** (mAP50-95 -- ave
 
 <img width="961" alt="Снимок экрана 2022-12-04 в 10 37 18" src="https://user-images.githubusercontent.com/111921768/205483889-5ebb4607-8df3-40cb-abd6-442ddb921c8e.png">
 
+Trained model was used for trafic sign detection on uploaded video. It should be noted that the detection was carried out quickly. A small excerpt of the resulting video you can see below.
+
+https://user-images.githubusercontent.com/111921768/206788337-2376f388-dd41-4571-9674-2743b50fc93f.mp4
+
 ## 7. Conclusion
 
 After my tries to train YOLOv7 model my best mAP on vatidation set was around 0.81. I think can be better and first of all I would work with dataset as  some instanses are over represented and others are under represented, it is worth to make the dataset more representative. 
